@@ -102,11 +102,11 @@ const creatingOneItem = (item) => {
   menuItems.appendChild(oneItem);
   // --------------------------------------------------------
   let leftSide = document.createElement('div');
-  leftSide.setAttribute('class', '.left-side');
+  leftSide.setAttribute('class', 'left-side');
   let rightSide = document.createElement('div');
-  rightSide.setAttribute('class', '.right-side');
+  rightSide.setAttribute('class', 'right-side');
   let rightUp = document.createElement('div');
-  rightUp.setAttribute('class', '.right-up');
+  rightUp.setAttribute('class', 'right-up');
   // placing the sections created into te one item element---
   oneItem.appendChild(leftSide);
   oneItem.appendChild(rightSide);

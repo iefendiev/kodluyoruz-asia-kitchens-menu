@@ -7,19 +7,17 @@
   margin: 10px;
   font-family: 'Parisienne';
   font-size: 40px;
-  border-bottom: 1px solid gray;
 }
 
 .right-up {
-  /* burasını görmüyor */
   display: flex;
-  border: 1px solid black;
-  background-color: green;
+  justify-content: space-between;
 }
 
 .menu-item {
   display: flex;
-  width: 50%;
+  width: 40%;
+  margin: 20px;
 }
 
 .item-title,
@@ -38,11 +36,11 @@
 .right-side {
   display: flex;
   flex-direction: column;
+  font-size: 1.2rem;
 }
 .menu-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding: 50px;
 }
 .btn-container {
@@ -54,8 +52,7 @@
 .btn {
   display: flex;
   flex-direction: column;
-  height: 40px;
-  width: 70px;
+  padding: 5px;
   margin: 30px 8px 0 8px;
   color: black;
   justify-content: center;
