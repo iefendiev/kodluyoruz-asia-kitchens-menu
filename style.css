@@ -12,12 +12,13 @@
 .right-up {
   display: flex;
   justify-content: space-between;
+  font-size: 1.5rem;
 }
 
 .menu-item {
   display: flex;
-  width: 40%;
-  margin: 20px;
+  flex: 1 1 600px;
+  padding: 2rem;
 }
 
 .item-title,
@@ -41,7 +42,7 @@
 .menu-items {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
+  /* padding: 50px; */
 }
 .btn-container {
   display: flex;
